@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expérience Interactive</title>
+    <style>
+        /* Styles CSS ici */
+    </style>
+</head>
+<body>
+    <div id="qrCodeContainer">
+        <!-- Contenu du QR code à afficher -->
+        <img src="lien_vers_le_qr_code.png" alt="QR Code">
+    </div>
+
+    <div id="lightEffectContainer">
+        <!-- Zone pour les effets lumineux -->
+    </div>
+
+    <div id="surveyContainer">
+        <!-- Contenu du sondage -->
+        <p>Êtes-vous volontaire pour monter sur scène?</p>
+        <button onclick="submitSurvey('oui')">Oui</button>
+        <button onclick="submitSurvey('non')">Non</button>
+    </div>
+
+    <div id="resultContainer">
+        <!-- Contenu pour afficher le résultat (smiley, redirection, etc.) -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
